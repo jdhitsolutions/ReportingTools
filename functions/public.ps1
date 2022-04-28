@@ -4,6 +4,7 @@ Function New-SQLReport {
     Param()
     # i am a test
     "hello"
+    
 }
 
 Function New-VMReport {

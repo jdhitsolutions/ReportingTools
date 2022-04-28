@@ -1,5 +1,9 @@
 # Change Log for Reporting tools
 
+## v0.2.0
+
++ changes
+
 ## v0.1.0
 
 + Added `New-VMReport`
