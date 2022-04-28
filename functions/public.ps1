@@ -8,6 +8,12 @@ Function New-SQLReport {
     "hello"
 }
 
+Function New-VMReport {
+    [CmdletBinding()]
+    Param()
+    "hello"
+}
+
 Function Get-HotFixReport {
     <#
 .SYNOPSIS
@@ -81,6 +87,7 @@ $hot = Get-HotFix -ComputerName $Computername
 
     #functions should write one-kind of object to the pipeline
     #this version adds a new property
+
     $hot | Select-Object  @{Name = "Computername"; Expression = { $_.PSComputername } },
     HotFixID, Description, InstalledBy,
     @{Name = "Installed"; Expression = { $_.InstalledOn -as [datetime] } },
