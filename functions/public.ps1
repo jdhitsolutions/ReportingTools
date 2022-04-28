@@ -5,7 +5,7 @@
 Function New-SQLReport {
     [CmdletBinding()]
     Param()
-    
+    # i am a test
     "hello"
 }
 
