@@ -1,7 +1,4 @@
 
-
-#this function lacks error handling
-
 Function New-SQLReport {
     [CmdletBinding()]
     Param()
@@ -12,8 +9,8 @@ Function New-SQLReport {
 Function New-VMReport {
     [CmdletBinding()]
     Param()
-
-    "hello"
+    #CALL THE HELPER FUNCTION
+    helper
 }
 
 Function Get-HotFixReport {
