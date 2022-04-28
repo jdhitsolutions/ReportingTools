@@ -5,12 +5,14 @@
 Function New-SQLReport {
     [CmdletBinding()]
     Param()
+    
     "hello"
 }
 
 Function New-VMReport {
     [CmdletBinding()]
     Param()
+
     "hello"
 }
 
