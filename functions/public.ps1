@@ -11,6 +11,7 @@ Function New-VMReport {
     Param()
     #CALL THE HELPER FUNCTION
     helper
+    #foo
 }
 
 Function Get-HotFixReport {
